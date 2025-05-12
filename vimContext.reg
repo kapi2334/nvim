@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+; Menu kontekstowe dla plików
+[HKEY_CLASSES_ROOT\*\shell\Nvim]
+@="Edit with Nvim"
+"Icon"="nvim.exe"
+
+[HKEY_CLASSES_ROOT\*\shell\Nvim\command]
+@="cmd /c nvim \"%1\""
+
+; Menu kontekstowe dla folderów
+[HKEY_CLASSES_ROOT\Directory\shell\Nvim]
+@="Edit folder with Nvim"
+"Icon"="nvim.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Nvim\command]
+@="cmd /c cd /d \"%1\" && nvim"
+
+; Menu kontekstowe po kliknięciu na pustą przestrzeń w folderze
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Nvim]
+@="Edit here with Nvim"
+"Icon"="nvim.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Nvim\command]
+@="cmd /c cd /d \"%V\" && nvim"
+
