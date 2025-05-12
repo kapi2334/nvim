@@ -18,6 +18,9 @@
 5. Open `lua/config/packer.lua` in Neovim
 6. Run Neovim, then execute the `:PackerSync` command
 
+##Opening files with context menu
+On Windows you can run `vimContext.reg` - to add option to run vim to your context menu (that that pop-ups when u click RMB on (actually when u click in too) folder, file etc. 
+
 ## Shortcuts
 
 ### Remaps
