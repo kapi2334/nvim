@@ -32,8 +32,9 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
 
   use('lukas-reineke/indent-blankline.nvim')
-  use('famiu/feline.nvim')
-
+  use('nvim-lualine/lualine.nvim')
+  use 'nvim-tree/nvim-web-devicons'
+use('lewis6991/gitsigns.nvim')
   use({
       "L3MON4D3/LuaSnip",
        })
