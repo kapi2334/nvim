@@ -21,6 +21,19 @@
 ## Opening files with context menu
 On Windows you can run `vimContext.reg` - to add option to run vim to your context menu (that one that pop-ups when u click RMB on (actually when u click in too) folder, file etc. 
 
+## Setting a Patched Font
+
+To avoid errors and strange characters in the terminal, it’s recommended to use a patched font (and it's even required - if you want the bottom bar to display correctly).
+
+To do this, follow these steps:
+
+1. Download a patched font (for example, I use FiraCode: [https://www.nerdfonts.com/font-downloads](https://www.nerdfonts.com/font-downloads))
+2. Install choosen font on your computer
+3. Launch `nvim`
+4. In your terminal's settings, change the font to the one from the FiraCode package
+
+This will ensure, that icons in the bottom bar display correctly.
+
 ## Shortcuts
 
 ### Remaps
