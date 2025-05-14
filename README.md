@@ -21,7 +21,7 @@
 ## Opening files with context menu
 On Windows you can run `vimContext.reg` - to add option to run vim to your context menu (that one that pop-ups when u click RMB on (actually when u click in too) folder, file etc. 
 
-## Setting a Patched Font
+## Setting up a Patched Font
 
 To avoid errors and strange characters in the terminal, it’s recommended to use a patched font (and it's even required - if you want the bottom bar to display correctly).
 
