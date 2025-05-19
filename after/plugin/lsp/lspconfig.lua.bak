@@ -75,11 +75,11 @@ require('mason-lspconfig').setup({
       require('lspconfig').csharp_ls.setup({
 	  
         cmd = {
-          "csharp-ls"
+          "C:/Users/Kacper/AppData/Local/nvim-data/mason/packages/csharp-language-server/csharp-ls.exe"
         },
         capabilities = require("cmp_nvim_lsp").default_capabilities()
     })
-	
+	print("CSharp LS Path: " .. csharp_ls_path)
 
     end
   }
